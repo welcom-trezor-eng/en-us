@@ -1,0 +1,204 @@
+body {
+    
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+    --primary-color: rgb(0, 133, 77);
+}
+
+.navbar-brand img {
+    width: 120px;
+}
+
+.navbar {
+    padding: 10px 20px !important;
+    background-color: #080808b6;
+    position: fixed !important;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-weight: 900 !important;
+    font-size: 28px !important;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.new-btn {
+    background-color: var(--primary-color);
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.new-btn-2 {
+    background-color: transparent;
+    display: inline-block;
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: 1px solid var(--primary-color);
+}
+
+.nav-item {
+    margin: 0px 10px;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.about {
+    /* background-color: #eee; */
+    background-image: url('../img/trezor-safe.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.layer {
+    background-color: rgba(0,0,0,.6);
+}
+
+.about-cntnt h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.about-cntnt p {
+    font-size: 16px;
+    color: #555;
+}
+
+.about-cntnt span {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+
+.line {
+    background-color: var(--primary-color);
+}
+
+.line h2 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Sec-one */
+
+.sec-one-img img{
+    width: 100%;
+}
+
+.sec-one-cntnt h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--primary-color);
+
+}
+
+.sec-one-cntnt p {
+    color: #555;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+footer {
+    background-color: #eee;
+}
+
+.footer-logo {
+    margin-bottom: 25px;
+}
+
+.footer-logo img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.footer-menu {
+}
+
+.footer-menu h4 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+}
+
+.footer-menu a {
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+
+}
+
+.new-box h1 {
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.new-box h2 {
+    font-weight: 700;
+}
+
+.new-box h3 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.new-box p {
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.new-box li {
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .about-cntnt h1 {
+        font-size: 32px;
+    }
+
+    .new-btn, .new-btn-2 {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .sec-one-cntnt h2 {
+        font-size: 24px;
+    }
+
+    .line h2 {
+        font-size: 32px;
+        margin-bottom: 0px;
+    }
+
+}
